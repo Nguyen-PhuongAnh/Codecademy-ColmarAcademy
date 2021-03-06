@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Montserrat, sans-serif;
+	color: #4a4744;
+}
+
+/* Header */
+header {
+	height: 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#name_logo {
+	display: flex;
+}
+
+header img {
+	padding-left: 1.5rem;
+}
+
+header h3 {
+	font-size: 2rem;
+}
+
+header h3 span {
+	margin-left: 0;
+	color: gray;
+}
+
+nav {
+	display: inline-block;
+	margin-right: 1.5rem;
+}
+
+header span {
+	margin-left: 1rem;
+}
+
+/* Introduction */
+#introduction {
+	background-color: #DBD2CA;
+	height: 100vh;
+	display: flex;
+}
+
+#introduction img {
+	width: 55%;
+	display: block;
+	margin: 3rem 3rem;
+}
+
+#intro-content {
+	margin: auto;
+}
+
+#intro-content h1 {
+	font-size: 3.125rem;
+}
+
+#intro-content h3 {
+	font-size: 1.7rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	color: #77726e;
+}
+
+#intro-content button {
+	width: 85%;
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	background-color: #4a4744;
+	border: 0;
+}
+
+#intro-content button a {
+	color: white;
+	font-weight: lighter;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+/* Information  */
+#review_information {
+	display: flex;
+}
+
+#review {
+	width: 60%;
+	border-right: 0.8px solid #dbd2ca;
+}
+
+#review img {
+	width: 92%;
+	margin: 2rem;
+}
+
+#review h1,
+#thesis-intro h2 {
+	font-size: 2.2rem;
+	padding-top: 0;
+	padding-left: 2rem;
+	margin-bottom: 1rem;
+	font-weight: 600;
+}
+
+#review p,
+#thesis-intro p {
+	font-size: 1.2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin-bottom: 1rem;
+	line-height: 1.6rem;
+}
+
+#information {
+	width: 40%;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.information-section {
+	display: flex;
+	border-bottom: 0.8px solid #dbd2ca;
+}
+
+.information-section:hover {
+	background: #dbd2ca;
+}
+
+.img-container {
+	width: 35%;
+}
+
+#information img,
+#thesis-exhibit img {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 1rem;
+}
+
+.information-content {
+	max-width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 1.6rem;
+	margin-top: 1rem;
+}
+
+.information-content h2,
+.information-content p {
+	margin-bottom: 0.5rem;
+}
+
+.information-content a {
+	text-decoration: none;
+	color: blue;
+}
+
+/* Courses */
+#courses-offered {
+	background: #F3EBE2;
+}
+
+#courses-offered h1,
+#thesis-exhibit h1 {
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-size: 2.2rem;
+}
+
+#courses-list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 2rem;
+}
+
+.course {
+	box-sizing: border-box;
+	width: 30%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-bottom: 2rem;
+}
+
+.course:hover {
+	transform: translateY(-10px);
+}
+
+.course img {
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.course-details {
+	background: white;
+	padding-left: 1rem;
+	padding-bottom: 1.5rem;
+	line-height: 2;
+	height: 11rem;
+}
+
+.course-details h3 {
+	font-size: 1.5rem;
+	padding-top: 0.8rem;
+}
+
+/* Thesis exhibit */
+#thesis {
+	display: flex;
+	padding-bottom: 2rem;
+}
+
+#thesis-intro {
+	min-width: 60%;
+	max-width: 65%;
+}
+
+#video-container {
+	width: 100%;
+}
+
+video {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 2rem 1.5rem 2rem;
+} 
+
+#theis-section {
+	max-width: 40%;
+	background: yellow;
+}
+
+/* Footer */
+footer {
+	display: flex;
+	justify-content: space-between;
+	border-top: 0.8px solid #dbd2ca;
+}
+
+footer i {
+	padding: 1rem 0 1rem 1.5rem;
+}
+
+#terms_privacy {
+	width: auto;
+	margin: auto 1.5rem auto 0;
+}
+
+footer span {
+	margin-right: 1rem;
+}
+
+
+
+
